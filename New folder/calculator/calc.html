@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./experiments.js"></script>
+    <link rel="stylesheet" type="text/css" href="./calcStyles.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="calculator">
+    <div class="row result">
+        <monospace class="resultSpace">0</monospace>
+    </div>
+    <div class="row">
+        <button class="button cButton"> C </button>
+        <button class="button backspaceButton"> &#8592; </button>
+        <button class="button divideButton"> &#247; </button>
+    </div>
+    <div class="row">
+        <button class="button sevenButton"> 7 </button>
+        <button class="button eightButton"> 8 </button>
+        <button class="button nineButton"> 9 </button>
+        <button class="button timesButton"> &times; </button>
+    </div>
+    <div class="row">
+        <button class="button fourButton"> 4 </button>
+        <button class="button fiveButton"> 5 </button>
+        <button class="button sixButton"> 6 </button>
+        <button class="button minusButton"> &minus; </button>
+    </div>
+    <div class="row">
+        <button class="button oneButton"> 1 </button>
+        <button class="button twoButton"> 2 </button>
+        <button class="button threeButton"> 3 </button>
+        <button class="button plusButton"> &plus; </button>
+    </div>
+    <div class="row">
+        <button class="button zeroButton"> 0 </button>
+        <button class="button equalsButton"> &equals; </button>
+    </div>
+    
+</div>
+   <script>
+       let endNumber = 0;
+       while(document.querySelector('.equalsButton').addEventListener('click')
+       {
+        if (document.querySelector('.cButton').addEventListener('click', function(evet){
+           alert("you clicked on button " + event.target.innerText);})
+            );
+        if (document.querySelector('.oneButton').addEventListener('click' , function(event){
+           document.querySelector('.resultSpace').innerText = document.querySelector('.oneButton').innerText;})
+           );
+        if (document.querySelector('.twoButton').addEventListener('click' , function(event){
+           document.querySelector('.resultSpace').innerText = document.querySelector('.twoButton').innerText;})
+           );   
+        if (document.querySelector('.threeButton').addEventListener('click' , function(event){
+           document.querySelector('.resultSpace').innerText = document.querySelector('.threeButton').innerText;})
+           ); 
+        if (document.querySelector('.fourButton').addEventListener('click' , function(event){
+           document.querySelector('.resultSpace').innerText = document.querySelector('.fourButton').innerText;})
+           );
+        if (document.querySelector('.fiveButton').addEventListener('click' , function(event){
+           document.querySelector('.resultSpace').innerText = document.querySelector('.fiveButton').innerText;})
+           );
+        if (document.querySelector('.sixButton').addEventListener('click' , function(event){
+           document.querySelector('.resultSpace').innerText = document.querySelector('.sixButton').innerText;})
+           );
+        if (document.querySelector('.sevenButton').addEventListener('click' , function(event){
+           document.querySelector('.resultSpace').innerText = document.querySelector('.sevenButton').innerText;})
+           );
+        if (document.querySelector('.eightButton').addEventListener('click' , function(event){
+           document.querySelector('.resultSpace').innerText = document.querySelector('.eightButton').innerText;})
+           );
+        if (document.querySelector('.nineButton').addEventListener('click' , function(event){
+           document.querySelector('.resultSpace').innerText = document.querySelector('.nineButton').innerText;})
+           );
+       if(document.querySelector('.plusButton').addEventListener('click',function(event){
+           endNumber=== document.querySelector('resultSpace').innerText + 
+       }))
+    }
+
+   </script>
+</body>
+</html>

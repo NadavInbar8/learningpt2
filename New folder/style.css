@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    padding: 10px;
+}
+.header{
+    padding: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    align-items: stretch;
+    border-bottom: 3px solid black;
+    border-left: 1px solid black;
+}
+
+.row {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.panel {
+    width: 33%;
+    border: 1px solid black;
+    padding: 0 10px;
+}
+.left-div{
+    color: crimson;
+}
+.middle-div{
+    color: darkslategray;
+}
+.right-div{
+    color: forestgreen;
+}
+.left-down-div{
+    width: 25%;
+}
+.right-down-div{
+    display: flex;
+    width: 75%;
+    padding: 0;
+}
+.sections{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: column;
+    text-decoration: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.section{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Futura";
+    color: #666;
+}
+.first-section{
+    background-color: cadetblue;
+}
+.second-section{
+    background-color: goldenrod;
+}
+.third-section{
+    background-color: hotpink;
+}
+.fourth-section{
+    background-color: palevioletred;
+}
+.fifth-section{
+    background-color: crimson;
+}
